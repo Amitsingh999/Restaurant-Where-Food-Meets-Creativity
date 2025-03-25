@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* Fonts */
+    --family-Primary: "David Libre", sans-serif;
+    --family-secondary: "Inter", sans-serif;
+
+     /* Colors */
+    --color-accent: #EA6D27;
+    --color-white: #fff;
+    --color-light-gray: #F3F4F4;
+    --color-dark-black: #101A24;
+    --color-text-body: #5C6574;
+
+     /* Typography */
+    --font-size-70: 4.375rem;
+    --font-size-60: 3.75rem;
+    --font-size-20: 1.25rem;
+    --font-size-12: .75rem;
+
+    /* Spacing */
+    --gap: 2.875rem;
+
+    /* Margin Buttons */
+    --margin-button-76: 4.75rem;
+    --margin-button-69: 4.31rem;
+    --margin-button-47: 2.93rem;
+    --margin-button-30: 1.875rem;
+    --margin-button-21: 1.31rem;
+    --margin-button-18: 1.12rem;
+
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--family-secondary);
+    scroll-behavior: smooth;
+    color: var(--color-text-body);
+}
+
+@media (max-width: 767px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+}
+
+/* Backgrounds start */
+
+.bg-light-gray {
+    background: var(--color-light-gray);
+}
+
+.bg-dark-black {
+    background: var(--color-dark-black);
+}
+
+.text-dark {
+    background: var(--color-dark-black);
+}
+
+/* Backgrounds End */
+
+
+
+/* Typography Start */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--family-Primary);
+    color: var(--color-dark-black);
+    font-weight: 700;
+}
+
+.text-70 {
+    font-size: var(--font-size-70);
+}
+
+.text-60 {
+    font-size: var(--font-size-60);
+}
+
+.text-20 {
+    font-size: var(--font-size-20);
+}
+
+.text-12 {
+    font-size: var(--font-size-12);
+}
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.m-button-76 {
+    margin-bottom: var(--margin-button-76);
+}
+
+.m-button-69 {
+    margin-bottom: var(--margin-button-69);
+}
+
+.m-button-47 {
+    margin-bottom: var(--margin-button-47);
+}
+
+.m-button-30 {
+    margin-bottom: var(--margin-button-30);
+}
+
+.m-button-21 {
+    margin-bottom: var(--margin-button-21);
+}
+
+.m-button-18 {
+    margin-bottom: var(--margin-button-18);
+}
+
+
+/* Typography Start */
+
+
+/*  Container */
+
+.container {
+    max-width: 1160px;
+    margin-inline: auto;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 940px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        padding-inline: 2rem;
+    }
+}
+
+/* Container End */
+
+
+/*Buttons & links Start */
+
+a {
+    text-decoration: none;
+    transition: .4s all;
+    color: inherit;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    text-align: center;
+    line-height: auto;
+}
+
+.btn:hover {
+    background-color: #c75a1d;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.btn-white {
+    background-color: var(--color-dark-black);
+    color: var(--color-white);
+}
+
+
+/*Buttons & links End */
+
+
+/* Utility Classes */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-0 {
+    margin-block: auto;
+}
+
+/* Utility Classes End */
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
