@@ -34,6 +34,7 @@
 
     /* Spacing */
     --gap: 2.81rem;
+    --gap-17: 1.1rem;
    
     
     
@@ -66,6 +67,7 @@
     --margin-left-32: 2rem;
     --margin-left-20: 1.25rem;
     
+    --line-height-72: 4.5rem;
     --line-height-58: 3.625rem;
     --line-height-40: 2.5rem;
     --line-height-29: 1.81rem;
@@ -213,6 +215,13 @@ h6 {
 
 /* margin top*/
 
+.mt-94{
+    margin-top: 94px;   
+}
+
+.mt-82{
+    margin-top: 82px;
+}
 
 .mt-64{
     margin-top: var(--margin-top-64);
@@ -247,6 +256,10 @@ h6 {
 
 
 /* Line Height */
+.line-h-72{
+    line-height: var(--line-height-72);
+}
+
 .line-h-58{
     line-height: var(--line-height-58);
 }
@@ -281,6 +294,10 @@ h6 {
 
 .gap {
     gap: var(--gap); 
+}
+
+.gap-17{
+    gap: var(--gap-17)
 }
 
 /* Typography End */
@@ -332,9 +349,11 @@ a {
     display: inline-block;
     padding: 1rem 2rem;
     background-color: var(--color-accent);
+    font-family: var(--family-Primary);
     color: var(--color-white);
     text-align: center;
     line-height: auto;
+    font-size: var(--font-size-20);
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 3px;
@@ -349,12 +368,19 @@ a {
 }
 
 
-.btn-white {
+.btn-dark {
     background-color: var(--color-dark-black);
-    color: var(--color-white);
+    margin-right: 25px;
    
 }
 
+.box-shadow-y {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box-shadow-b {
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+}
 
 /*Buttons & links End */
 
@@ -385,10 +411,10 @@ a {
 
 /* Images */
 
-img {
+/* img {
     max-width: 100%;
     height: auto;
-}
+}  */
 
 .position-relative {
     position: relative;
