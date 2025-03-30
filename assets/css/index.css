@@ -198,6 +198,7 @@ header ul {
 .hero-banner .vector-top-left {
     top: -5%;
     left: 18%;
+    
 }
 
 .hero-banner .vector-top-right {
@@ -243,7 +244,7 @@ header ul {
         gap: 10px;
         margin-top: 40px;
         padding: 0;
-        padding-inline: 124px;
+        padding-inline: 144px;
     }
 
     .hero-banner .button-group {
@@ -295,6 +296,17 @@ header ul {
         min-width: 400px;
     }
 
+    .hero-banner .left-panel ul {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 40px;
+        padding: 0;
+        padding-inline: 234px;
+    }
+
     .hero-banner .vector-image {
         max-width: 22%;
     }
@@ -328,6 +340,17 @@ header ul {
 @media (max-width: 767px) {
     .hero-banner .vector-image {
         max-width: 20%;
+    }
+
+    .hero-banner .left-panel ul {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 40px;
+        padding: 0;
+        padding-inline: 150px;
     }
 
     .hero-banner .vector-top-left {
@@ -365,6 +388,7 @@ header ul {
         max-width: 100%;
         min-width: 280px;
     }
+   
 
     .hero-banner .container .right-panel {
         margin-top: 30px !important;
