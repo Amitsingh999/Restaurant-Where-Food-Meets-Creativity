@@ -4,7 +4,6 @@ header {
     margin-bottom: 63px;
     background-color: #FFFFFF;
     z-index: 1;
-    /* position: fixed; */
 
 }
 
@@ -78,11 +77,7 @@ header ul {
     .book-btn {
         display: block;
         padding: 8px 10px;
-
-
     }
-
-
 
     .menu {
         width: 100%;
@@ -102,29 +97,7 @@ header ul {
     }
 }
 
-
-
-
-
-/* Hero banner section start */
-.hero-banner {
-    overflow: visible;
-    padding-bottom: 158px;
-}
-
-.hero-banner .container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.hero-banner .left-panel {
-    max-width: 510px;
-    z-index: 1;
-    text-align: left;
-}
+/*  Hero-banner start*/
 
 .hero-banner .left-panel h1 {
     padding-top: 240px;
@@ -456,6 +429,7 @@ header ul {
 
 /*  Dishes Section */
 
+
 .dish-card {
     background: #f3f4f4;
     border-top-left-radius: 50px;
@@ -518,6 +492,58 @@ header ul {
 
 
 
+.dishes-top-left-vector {
+    position: absolute;
+    top: 54px;
+    left: 227px;
+    width: 20%;
+    height: auto;
+    transform: translate(-20%);
+    
+}
+
+.dishes-top-right-vector {
+    position: absolute;
+    top: 44px;
+    right: 247px;
+    width: 12%;
+    height: auto;
+    transform: translate(-19%) rotate(-26deg);
+}
+
+.dishes-card-vector-1{
+    position: absolute;
+    bottom: 168px;
+    left: 326px;
+    width: 6%;
+    height: auto;
+    transform: translate(-19%) rotate(2deg);
+}
+
+.vector-card-4{
+    position: absolute;
+    bottom: 168px;
+    right: 50px;
+    width: 15%;
+    height: auto;
+    transform: translate(-19%) rotate(2deg);
+    z-index: 1;
+}
+
+
+.vector-card-5{
+    position: absolute;
+    bottom: 65px;
+    right: 539px;
+    width: 15%;
+    height: auto;
+    transform: translate(-19%) rotate(2deg);
+    z-index: 1;
+} 
+
+
+
+
 @media (max-width: 1200px) {
     .p-inline-390 {
         padding-inline: 200px;
@@ -525,6 +551,9 @@ header ul {
 
     .dishes {
         padding-block: 40px;
+    }
+    .dishes-top-right-vector, .dishes-top-left-vector, .dishes-card-vector-1, .vector-card-4, .vector-card-5{
+        display: none;
     }
 
 }
@@ -543,6 +572,8 @@ header ul {
 
 }
 
+
+
 /*  Dishes Section End */
 
 
@@ -551,6 +582,38 @@ header ul {
 .welcome-content-panel {
     margin-left: -50px;
 }
+
+.welcome-vector-1 {
+    position: absolute;
+    top: 18vh;
+    right: 23vw;
+    width: 18vw;
+    height: auto;
+    transform: rotate(5deg);
+    filter: opacity(40%);
+}
+
+.welcome-vector-2 {
+    position: absolute;
+    top: 81vh;
+    right: 35vw;
+    width: 10vw;
+    height: auto;
+    transform: rotate(5deg);
+    
+}
+
+.welcome-vector-3 {
+    position: absolute;
+    top: 63vh;
+    right: -3vw;
+    width: 20vw;
+    height: auto;
+    transform: rotate(-1deg);
+    filter: opacity(40%);
+}
+
+
 
 @media (max-width: 1200px) {
     .welcome-section .container {
@@ -571,7 +634,48 @@ header ul {
     .welcome-image-panel{
         width: 100%;
     }
+    .welcome-vector-1 {
+        top: 94vh;
+        left: 8vw;
+        width: 15vw;
+    }
+
+    .welcome-vector-2 {
+        top: 138vh;
+        left: 25vw;
+        width: 11vw;
+    }
+
+    .welcome-vector-3 {
+        top: 118vh;
+        right: 0vw;
+        width: 25vw;
+        transform: rotate(-5deg);
+    }
 }
+
+
+@media (max-width: 992px) {
+    .welcome-vector-1 {
+        top: 94vh;
+        left: 8vw;
+        width: 15vw;
+    }
+
+    .welcome-vector-2 {
+        top: 138vh;
+        left: 25vw;
+        width: 11vw;
+    }
+
+    .welcome-vector-3 {
+        top: 118vh;
+        right: 0vw;
+        width: 25vw;
+        transform: rotate(-5deg);
+    }
+}
+
 
 
 @media (max-width: 767px) {
@@ -585,13 +689,11 @@ header ul {
     .welcome-content-panel h2{
         font-size: 36px;
     }
+    .welcome-vector-1 , .welcome-vector-2 , .welcome-vector-3 {
+        display: none;
+    } 
 }
-
-
 /* Welcome Section End*/
-
-
-
 
 
 /* Chef section */
@@ -777,28 +879,6 @@ header ul {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Testimonials start*/
 
 .testimonials {
@@ -877,6 +957,12 @@ header ul {
     transform: translate(-20%);
 }
 
+.dot-line {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
 @media (max-width: 1200px) {
     .testimonials {
         padding: 40px 15px;
@@ -934,6 +1020,11 @@ header ul {
         top: 40px;
         left: -20px;
     }
+    .dot-line {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -967,6 +1058,7 @@ header ul {
         top: 30px;
         left: -10px;
     }
+   
 }
 
 @media (max-width: 575px) {
@@ -1000,17 +1092,7 @@ header ul {
         left: 0;
     }
 }
-
-
-
-
-
-
 /* Testimonials End  */
-
-
-
-
 
 
 /* Footer top Start*/
@@ -1020,7 +1102,6 @@ header ul {
     height: auto;
     margin-top: -300px;
 }
-
 
 .container-image {
     display: flex;
@@ -1154,8 +1235,6 @@ header ul {
     gap: 5%;
     align-items: start;
     padding-top: 140px;
-
-
 }
 
 .footer-bottom::after {
@@ -1199,12 +1278,9 @@ header ul {
     margin-right: 10px;
 }
 
-
 footer .footer-bottom p a {
     text-decoration: underline;
 }
-
-
 
 .footer-bottom .hours-item {
     display: flex;

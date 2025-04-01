@@ -151,6 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 .p-left-57{padding-left: 57px;}
 
 .p-right-258{padding-right: 258px;}
+.p-right-70{padding-right: 70px;}
 
 .p-block-124{padding-block: 124px;}
 .p-block-92{padding-block: 92px;}
@@ -302,10 +303,13 @@ a {transition: .4s all; color: inherit;}
 .flex-direction{flex-direction: column;}
 
 .text-center {text-align: center;}
+.text-left{text-align: left;}
 .mb-0 {margin-block: auto;}
 
 .width-100{width: 100%;}
-.z-index--1{z-index: 1;}
+.max-width-510{max-width: 510px;}
+.z-index1{z-index: 1;}
+.z-index-1{z-index: -1;}
 .overflow-visible{overflow: visible;}
 
 
