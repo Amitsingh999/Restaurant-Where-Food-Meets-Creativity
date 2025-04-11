@@ -311,6 +311,7 @@ a {transition: .4s all; color: inherit;}
 .z-index1{z-index: 1;}
 .z-index-1{z-index: -1;}
 .overflow-visible{overflow: visible;}
+.overflow-hidden{overflow: hidden;}
 
 
 

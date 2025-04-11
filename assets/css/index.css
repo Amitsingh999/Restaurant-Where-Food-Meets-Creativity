@@ -332,20 +332,18 @@ header ul {
         padding-inline: 150px;
     }
 
+   
     .hero-banner .vector-top-left {
-        top: -4%;
-        left: 25%;
+        display: none;
     }
 
     .hero-banner .vector-top-right {
-        top: -8%;
-        right: -5%;
+        display: none;
     }
 
     .hero-banner .vector-bottom-right {
-        bottom: 3%;
-        right: -10%;
-    }
+        display: none;
+    } 
 
     .hero-banner .food-deliciose-image {
         left: -170px;
@@ -390,24 +388,6 @@ header ul {
         font-size: 40px;
     }
 
-    .hero-banner .vector-image {
-        max-width: 18%;
-    }
-
-    .hero-banner .vector-top-left {
-        top: -2%;
-        left: 25%;
-    }
-
-    .hero-banner .vector-top-right {
-        top: -7%;
-        right: -4%;
-    }
-
-    .hero-banner .vector-bottom-right {
-        bottom: 0%;
-        right: -6%;
-    }
 
     .hero-banner .food-deliciose-image {
         top: -50px;
@@ -606,8 +586,8 @@ header ul {
 .welcome-vector-3 {
     position: absolute;
     top: 63vh;
-    right: -3vw;
-    width: 20vw;
+    right: 0vw;
+    width: 15vw;
     height: auto;
     transform: rotate(-1deg);
     filter: opacity(40%);
